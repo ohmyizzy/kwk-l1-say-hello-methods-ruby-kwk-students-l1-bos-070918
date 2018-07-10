@@ -1,9 +1,17 @@
 # Build your say_hello method here
 
-def say_hello(name)
-  if name == ""
-    puts "Hello Ruby Programmer!"
-  else
+def say_hello(name= "Ruby Programmer")
     puts "Hello #{name}!"
-  end
 end
+
+def practice(argument)
+  puts argument
+end
+
+practice("smile")
+
+say_hello
+say_hello("Izzy")
+
+
+# argument = "smile"
